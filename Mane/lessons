@@ -1,0 +1,20 @@
+git config --global user.name"USERNAME"-Tell Git who you are
+git config --global user.email user@email.com-Tell Git who you are
+git init-Create a new emptylocal repository
+git clone repositoryURL-Check out a repository 
+git add filename-Add files, git add *-Add all the files
+git commit-Commit changes
+git push -u origin master-Send changes to the master branch of your remote repository
+git status-List the files you've changed and those you still need to add or commit
+git checkout -b branchname-Create a new branch and switch to it
+git checkout branchname-Switch from one branch to another
+git branch-List all the branches in your repo, and also tell you what branch you're currently in
+git branch -d branchname-Delete the branch
+git branch branchname-Create a branch
+git push origin branchname-Push the branch to your remote repository, so others can use it
+git push --all origin Push all branches to your remote repository
+git pull-Fetch and merge changes on the remote server to your working directory
+git merge branchname-Merge a different branch into your active branch
+git diff-View all the merge conflicts
+git log-Show the chronological commit history for a repository
+git grep "..."-Search the working directory for "..."
